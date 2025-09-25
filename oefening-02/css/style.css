@@ -1,0 +1,15 @@
+ol{
+    list-style: decimal;
+    margin-left: 1.5rem;
+
+}
+
+ol li:nth-child(even){
+color: black;
+background-color: rgba(174, 174, 174, 0.379);
+
+}
+
+ol li:nth-child(odd){
+    color: blue;
+}
